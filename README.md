@@ -1,6 +1,6 @@
 # A website dedicated to share the best Cat pics in the Internet has to offer
 
-The long term of objective of CatBook is to promote Cat pictures from the interwebs and present to the user an option to vote on theirs favorite.
+The long term of objective of CatBook is to promote Cat pictures from the interwebs and present to the user an option to vote on their favorite.
 
 The user will vote between 2 pictures using an Elo rating algorithm (Commonly used in Chess) to determine a final winner.
 
