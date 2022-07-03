@@ -7,3 +7,6 @@ The user will vote between 2 pictures using an Elo rating algorithm (Commonly us
 That final winner will have a vote tallied to it's name and the final winner will be decided each month!
 
 Happy days for Cat lovers!
+
+
+Future updated to be described in this README...
