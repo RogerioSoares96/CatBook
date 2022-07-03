@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatBook</title>
+    <link rel="stylesheet" type="text/css" href="CatBookStyleSheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<a id="top"></a>
+<br>
+<body>
+  <header id=header>
+   <nav>
+     <ul>
+       <li><a id="letter" href="#top">CatBook</a></li>
+     </ul>
+   </nav> 
+  </header>
+    <main>
+    <!--Title of the page and brief explanation-->
+     <h1 class="black-title text-alignment" id="title">CatBook</h1>
+     <p class="black-title text-alignment">The concept is simple. Rate cat pictures from around the web against each other to nominate a weekly furry winner!</p>
+     <br>
+     <br>
+     <h2 class="black-title text-alignment">This week...</h2>
+     <br>
+     <!--Use of algorythm and database of cat photos from the web to generate random cat photo "tournament"-->
+     <div>
+       <img class="smaller-image image-border center photo-border-1" src="https://uploads.metropoles.com/wp-content/uploads/2017/12/01144349/Screenshot_11-1024x683.jpg" alt="A cute orange cat with green eyes and it's mouth open">
+       <img class="smaller-image image-border center photo-border-2" src="https://www.caesegatos.com.br/assets/uploads/noticias/gatoclinica.jpg" alt="Cat on a veterinary table being held by a veterinary">
+     </div>
+     <br>
+     <br>
+     <hr>
+    <!--Last week's winners - up to 5 weeks are displayed here-->
+     <div>
+      <h2 class="black-title text-alignment">Last week's winners</h2>
+     </div>
+     <br>
+     <div class="box-border">
+    <img class="smaller-image-1 image-border center" src="https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80">
+    <img class="smaller-image-1 image-border center" src="https://images.unsplash.com/photo-1548681528-6a5c45b66b42?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
+    <img class="smaller-image-1 image-border center" src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=958&q=80">
+    <img class="smaller-image-1 image-border center" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1927&q=80">  
+  </div>
+  <br>
+    <!-- #Under Construction# User's Input - ?Opinion on Cat's? Cat photo submission, personality values, colours, basically give a platform-->
+    <h3 class="text-alignment">Cats are an integral part of the Internet, from funny videos to pictures full of adorableness.</h3>
+    <br>
+    <Fieldset class="box-border-2">
+      <Legend><strong>Tell us abour your four legged friend?</strong></Legend>
+      <div>
+      <div class="position-box-3 box-border-3 silver-background">
+      <p>Are you a cat owner?</p>
+      <br>
+          <form class="text-alignment" action="www.catbook.com/Cat-owner-?">
+          <label class="text-alignment" for="Yes">
+            <input id="yes" type="radio" value="yes" name="yes-no">Yes
+          </label>
+          <br>
+          <br>
+          <br>
+          <label class="text-alignment" for="No">
+            <input id="no" type="radio" value="no" name="yes-no">No
+          </label>
+          </form>
+      </div>
+      <div class="box-border-4 silver-background">
+        <p>Are cats awsome?</p>
+        <br>
+            <form class="text-alignment" action="www.catbook.com/Cat-owner-?">
+            <label class="text-alignment" for="Yes">
+              <input id="yes" type="radio" value="yes" name="yes-no">Yes
+            </label>
+            <br>
+            <br>
+            <br>
+            <label class="text-alignment" for="No">
+              <input id="no" type="radio" value="no" name="yes-no">No
+            </label>
+            </form>
+      </div>
+      <div class="box-border-5 silver-background">
+        <p>What's your cat like?</p>
+            <form class="text-alignment" action="www.catbook.com/Cat-personality">
+            <label class="text-alignment" for="quiet">
+              <input id="quiet" type="checkbox" value="quiet" name="personality">Quiet
+            </label>
+            <br>
+            <label class="text-alignment" for="sweet">
+              <input id="sweet" type="checkbox" value="sweet" name="personality">Sweet
+            </label>
+            <br>
+            <label class="text-alignment" for="fiesty">
+              <input id="fiesty" type="checkbox" value="fiesty" name="personality">Fiesty
+            </label>
+            <br>
+            <label class="text-alignment" for="energetic">
+              <input id="energetic" type="checkbox" value="energetic" name="personality">Energetic
+            </label>
+          </form>
+          </div>
+        </div>
+    </Fieldset>
+    <br>
+    <div class="text-alignment">
+      <form id="submit-user-form" action="www.catbook.com/user-form">
+         <button type="submit">Submit</button>
+     </form>
+    </div>
+    <!-- Space to follow the wireframe in terms of institution that are helping cats worldwide-->
+
+
+    
+       <!--Cat News and Catbook Newsletter-->
+     <div id="news">
+      <p class="text-alignment">Not convinced cats are awsome?
+        <a target="_blank" href="https://www.cbc.ca/life/pets/science-proves-that-cats-are-even-more-awesome-than-we-thought-1.4129520" alt="CBC news about awsome cats"> This is the reason</a>
+      </P>
+      <p class="grey-text text-alignment">Subscribe to our newsletter to receive photos and details of our weekly winners! </p>
+        <form class="text-alignment" id="subscribe-newsletter" action="www.catbook.com/subscribe-newsletter">
+           <input type="email" required placeholder="E-mail adress">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <br>
+    <!--Creators credits-->
+    <div>
+      <table class="center">
+        <tr>
+          <th>Creators</th>
+          <td><a target="_blank" href="https://www.facebook.com/rogerio.soares.77377">Rogerio Soares</a></td>
+          <td><a target="_blank" href="https://www.facebook.com/rodrigo.ferreira.543792"> Rodrigo Ferreira</a></td>
+        </tr>
+      </table>
+     </div>
+    </main>
+</body>
+</html>
